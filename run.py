@@ -31,7 +31,3 @@ for file_name in glob.glob("*.bbmodel"):
     with open('../output/'+file_name, 'w') as file2:
         file2.write(json.dumps(json_object))
 print("Done!")
-
-
-
-
